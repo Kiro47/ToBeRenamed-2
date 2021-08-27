@@ -1,0 +1,11 @@
+{
+  "server": {
+    "port": 5001
+  },
+  "directories": [
+    {
+      "directory_path": "/home/kiro/Downloads",
+      "url_path": "/"
+    }
+  ]
+}
