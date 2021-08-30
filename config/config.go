@@ -8,6 +8,7 @@ import (
 
 type Config struct {
 	Server struct {
+		ListenAddr string `yaml:"listenAddr", envconfig"LISTENADDR"`
 		Port int `yaml:"port", envconfig:"PORT"`
 	} `yaml:"server", envconfig:"SERVER"`
 	Directories[] struct {
